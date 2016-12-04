@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "8f81c3cb17502b5329b43bc7583897fb"
+build_time: [534193776, 443289000]
+inputs:
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/AFError.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/Alamofire.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/MultipartFormData.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/Notifications.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/ParameterEncoding.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/Request.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/Response.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/ResponseSerialization.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/Result.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/ServerTrustPolicy.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/SessionDelegate.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/SessionManager.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/TaskDelegate.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/Timeline.swift": [534193660, 0]
+  "/Users/Ali/Desktop/Books Generator/Pods/Alamofire/Source/Validation.swift": [534193660, 0]
