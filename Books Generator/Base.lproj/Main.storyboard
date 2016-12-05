@@ -18,17 +18,17 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="XQp-D4-4W7" kind="relationship" relationship="rootViewController" id="wha-zM-awJ"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qui-2N-P2k"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17u-c7-YsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1377" y="79"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Books_Generator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Books_Generator" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -38,25 +38,48 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Looking for a book?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uow-yc-H2O">
-                                <rect key="frame" x="44.5" y="90" width="287" height="36"/>
+                                <rect key="frame" x="44.5" y="134" width="287" height="36"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0B5-Xv-hFm">
-                                <rect key="frame" x="16" y="626" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You came to the right place" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmB-40-uJI">
+                                <rect key="frame" x="82.5" y="178" width="210" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0px-D9-b1L">
+                                <rect key="frame" x="127.5" y="308" width="120" height="50"/>
+                                <color key="backgroundColor" red="0.01176470588" green="0.49019607840000001" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="M4w-tt-zvp"/>
+                                    <constraint firstAttribute="width" constant="120" id="gzf-d1-rTy"/>
+                                </constraints>
+                                <state key="normal" title="Enter Chat">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="XQp-D4-4W7" kind="show" id="VgH-Ih-dsN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="0px-D9-b1L" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4Rj-yA-vw9"/>
+                            <constraint firstItem="xmB-40-uJI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Euu-v5-MET"/>
+                            <constraint firstItem="0px-D9-b1L" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FWU-sS-bdB"/>
+                            <constraint firstItem="xmB-40-uJI" firstAttribute="top" secondItem="uow-yc-H2O" secondAttribute="bottom" constant="8" id="Fjk-DY-ehe"/>
                             <constraint firstItem="uow-yc-H2O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="70" id="TRo-qA-qn5"/>
                             <constraint firstItem="uow-yc-H2O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="heZ-ha-egQ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="hjJ-LD-Xxp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413A57171DF4E214008F3FF8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413A57161DF4E214008F3FF8 /* Constants.swift */; };
 		419A5F661DF4A946001EEAA4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419A5F651DF4A946001EEAA4 /* ChatViewController.swift */; };
 		41DFC8141DF4A0A900FFAFFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC8131DF4A0A900FFAFFE /* AppDelegate.swift */; };
 		41DFC8161DF4A0A900FFAFFE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC8151DF4A0A900FFAFFE /* MainViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		303E3320FCAA70D983073838 /* Pods_Books_Generator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Books_Generator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		413A57161DF4E214008F3FF8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		419A5F651DF4A946001EEAA4 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		41DFC8101DF4A0A900FFAFFE /* Books Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Books Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DFC8131DF4A0A900FFAFFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		41DFC8121DF4A0A900FFAFFE /* Books Generator */ = {
 			isa = PBXGroup;
 			children = (
+				413A57161DF4E214008F3FF8 /* Constants.swift */,
 				41DFC8131DF4A0A900FFAFFE /* AppDelegate.swift */,
 				41DFC8151DF4A0A900FFAFFE /* MainViewController.swift */,
 				41DFC8171DF4A0A900FFAFFE /* Main.storyboard */,
@@ -267,6 +270,7 @@
 				41DFC8161DF4A0A900FFAFFE /* MainViewController.swift in Sources */,
 				419A5F661DF4A946001EEAA4 /* ChatViewController.swift in Sources */,
 				41DFC8141DF4A0A900FFAFFE /* AppDelegate.swift in Sources */,
+				413A57171DF4E214008F3FF8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

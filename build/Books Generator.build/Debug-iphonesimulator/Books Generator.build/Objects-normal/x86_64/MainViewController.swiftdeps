@@ -7,72 +7,49 @@ provides-member:
 - ["C15Books_Generator18MainViewController", ""]
 provides-dynamic-lookup:
 - "viewDidLoad"
-- "BASE_URL"
-- "CHAT_URL"
-- "WELCOME_URL"
-- "didReceiveMemoryWarning"
 depends-top-level:
-- "StringLiteralType"
-- "UIViewController"
-- !private "+"
-- !private "Alamofire"
 - "MainViewController"
+- !private "Constants"
+- !private "Alamofire"
+- !private "+"
 - !private "print"
-- !private "CastingPrecedence"
+- "UIViewController"
 depends-member:
 - !private ["Ps9AnyObject", "Alamofire"]
-- ["Ps9AnyObject", "BASE_URL"]
-- ["Ps9AnyObject", "CHAT_URL"]
-- !private ["Ps9AnyObject", "MainViewController"]
-- ["Ps9AnyObject", "WELCOME_URL"]
-- ["Ps9AnyObject", "didReceiveMemoryWarning"]
-- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "BASE_URL"]
+- !private ["Ps9AnyObject", "Constants"]
+- !private ["Ps9AnyObject", "WELCOME_URL"]
+- !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "print"]
 - !private ["Ps9AnyObject", "responseJSON"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
 - !private ["Sb", "deinit"]
 - !private ["Ps7CVarArg", "Alamofire"]
-- ["Ps7CVarArg", "BASE_URL"]
-- ["Ps7CVarArg", "CHAT_URL"]
-- !private ["Ps7CVarArg", "MainViewController"]
-- ["Ps7CVarArg", "WELCOME_URL"]
-- ["Ps7CVarArg", "didReceiveMemoryWarning"]
-- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "Constants"]
+- !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "print"]
 - ["Ps7CVarArg", "viewDidLoad"]
 - ["Ps7CVarArg", ""]
 - !private ["Vs9Character", "deinit"]
-- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C15Books_Generator9Constants", "BASE_URL"]
+- !private ["C15Books_Generator9Constants", "WELCOME_URL"]
 - !private ["Ps28CustomDebugStringConvertible", "Alamofire"]
-- ["Ps28CustomDebugStringConvertible", "BASE_URL"]
-- ["Ps28CustomDebugStringConvertible", "CHAT_URL"]
-- !private ["Ps28CustomDebugStringConvertible", "MainViewController"]
-- ["Ps28CustomDebugStringConvertible", "WELCOME_URL"]
-- !private ["Ps28CustomDebugStringConvertible", "data"]
-- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
-- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Constants"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
-- !private ["Ps28CustomDebugStringConvertible", "request"]
-- !private ["Ps28CustomDebugStringConvertible", "response"]
 - !private ["Ps28CustomDebugStringConvertible", "responseJSON"]
 - !private ["Ps28CustomDebugStringConvertible", "result"]
 - !private ["Ps28CustomDebugStringConvertible", "value"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
-- ["Ps29CustomPlaygroundQuickLookable", "init"]
-- ["Ps17CustomReflectable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "Alamofire"]
-- ["Ps23CustomStringConvertible", "BASE_URL"]
-- ["Ps23CustomStringConvertible", "CHAT_URL"]
-- !private ["Ps23CustomStringConvertible", "MainViewController"]
-- ["Ps23CustomStringConvertible", "WELCOME_URL"]
-- !private ["Ps23CustomStringConvertible", "data"]
-- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
-- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "Constants"]
+- !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "print"]
-- !private ["Ps23CustomStringConvertible", "request"]
-- !private ["Ps23CustomStringConvertible", "response"]
 - !private ["Ps23CustomStringConvertible", "responseJSON"]
 - !private ["Ps23CustomStringConvertible", "result"]
 - !private ["Ps23CustomStringConvertible", "value"]
@@ -80,34 +57,23 @@ depends-member:
 - ["Ps23CustomStringConvertible", ""]
 - ["C9Alamofire11DataRequest", "deinit"]
 - !private ["C9Alamofire11DataRequest", "responseJSON"]
-- !private ["V9Alamofire12DataResponse", "data"]
 - !private ["V9Alamofire12DataResponse", "deinit"]
-- !private ["V9Alamofire12DataResponse", "request"]
-- !private ["V9Alamofire12DataResponse", "response"]
 - !private ["V9Alamofire12DataResponse", "result"]
 - !private ["Sd", "deinit"]
 - !private ["Ps9Equatable", "Alamofire"]
-- ["Ps9Equatable", "BASE_URL"]
-- ["Ps9Equatable", "CHAT_URL"]
-- !private ["Ps9Equatable", "MainViewController"]
-- ["Ps9Equatable", "WELCOME_URL"]
-- ["Ps9Equatable", "didReceiveMemoryWarning"]
-- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "Constants"]
+- !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "print"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
-- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- ["Ps32ExpressibleByStringInterpolation", "init"]
-- ["Ps26ExpressibleByStringLiteral", "init"]
-- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Sf", "deinit"]
 - !private ["Ps8Hashable", "Alamofire"]
-- ["Ps8Hashable", "BASE_URL"]
-- ["Ps8Hashable", "CHAT_URL"]
-- !private ["Ps8Hashable", "MainViewController"]
-- ["Ps8Hashable", "WELCOME_URL"]
-- ["Ps8Hashable", "didReceiveMemoryWarning"]
-- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "Constants"]
+- !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "print"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
@@ -116,150 +82,95 @@ depends-member:
 - !private ["Vs5Int32", "deinit"]
 - !private ["Vs5Int64", "deinit"]
 - !private ["Vs4Int8", "deinit"]
-- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["C15Books_Generator18MainViewController", "Alamofire"]
-- ["C15Books_Generator18MainViewController", "BASE_URL"]
-- ["C15Books_Generator18MainViewController", "CHAT_URL"]
-- !private ["C15Books_Generator18MainViewController", "MainViewController"]
-- ["C15Books_Generator18MainViewController", "WELCOME_URL"]
+- !private ["C15Books_Generator18MainViewController", "Constants"]
 - ["C15Books_Generator18MainViewController", "deinit"]
-- ["C15Books_Generator18MainViewController", "didReceiveMemoryWarning"]
 - ["C15Books_Generator18MainViewController", "init"]
 - !private ["C15Books_Generator18MainViewController", "print"]
 - ["C15Books_Generator18MainViewController", "viewDidLoad"]
-- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "init"]
 - ["CSo7NSCoder", "deinit"]
 - !private ["PSo8NSCoding", "Alamofire"]
-- ["PSo8NSCoding", "BASE_URL"]
-- ["PSo8NSCoding", "CHAT_URL"]
-- !private ["PSo8NSCoding", "MainViewController"]
-- ["PSo8NSCoding", "WELCOME_URL"]
-- ["PSo8NSCoding", "didReceiveMemoryWarning"]
-- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "Constants"]
+- !private ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
-- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "Alamofire"]
-- ["PSo26NSExtensionRequestHandling", "BASE_URL"]
-- ["PSo26NSExtensionRequestHandling", "CHAT_URL"]
-- !private ["PSo26NSExtensionRequestHandling", "MainViewController"]
-- ["PSo26NSExtensionRequestHandling", "WELCOME_URL"]
-- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "Constants"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
-- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
 - !private ["CSo8NSObject", "Alamofire"]
-- ["CSo8NSObject", "BASE_URL"]
-- ["CSo8NSObject", "CHAT_URL"]
-- !private ["CSo8NSObject", "MainViewController"]
-- ["CSo8NSObject", "WELCOME_URL"]
-- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "Constants"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "print"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "Alamofire"]
-- ["PSo16NSObjectProtocol", "BASE_URL"]
-- ["PSo16NSObjectProtocol", "CHAT_URL"]
-- !private ["PSo16NSObjectProtocol", "MainViewController"]
-- ["PSo16NSObjectProtocol", "WELCOME_URL"]
-- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
-- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "Constants"]
+- !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
-- ["PSo14NSSecureCoding", "init"]
-- ["CSo8NSString", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
 - ["Sq", "deinit"]
 - !private ["C9Alamofire7Request", "responseJSON"]
-- !private ["P9Alamofire8Response", "data"]
-- !private ["P9Alamofire8Response", "request"]
-- !private ["P9Alamofire8Response", "response"]
 - !private ["P9Alamofire8Response", "result"]
 - !private ["O9Alamofire6Result", "deinit"]
 - !private ["O9Alamofire6Result", "value"]
 - ["SS", "deinit"]
-- ["SS", "init"]
-- ["Ps16TextOutputStream", "init"]
-- ["Ps20TextOutputStreamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
 - !private ["PSo21UIAppearanceContainer", "Alamofire"]
-- ["PSo21UIAppearanceContainer", "BASE_URL"]
-- ["PSo21UIAppearanceContainer", "CHAT_URL"]
-- !private ["PSo21UIAppearanceContainer", "MainViewController"]
-- ["PSo21UIAppearanceContainer", "WELCOME_URL"]
-- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "Constants"]
 - !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "Alamofire"]
-- ["PSo18UIContentContainer", "BASE_URL"]
-- ["PSo18UIContentContainer", "CHAT_URL"]
-- !private ["PSo18UIContentContainer", "MainViewController"]
-- ["PSo18UIContentContainer", "WELCOME_URL"]
-- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "Constants"]
 - !private ["PSo18UIContentContainer", "init"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo18UIFocusEnvironment", "Alamofire"]
-- ["PSo18UIFocusEnvironment", "BASE_URL"]
-- ["PSo18UIFocusEnvironment", "CHAT_URL"]
-- !private ["PSo18UIFocusEnvironment", "MainViewController"]
-- ["PSo18UIFocusEnvironment", "WELCOME_URL"]
-- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "Constants"]
 - !private ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo11UIResponder", "Alamofire"]
-- ["CSo11UIResponder", "BASE_URL"]
-- ["CSo11UIResponder", "CHAT_URL"]
-- !private ["CSo11UIResponder", "MainViewController"]
-- ["CSo11UIResponder", "WELCOME_URL"]
-- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "Constants"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "Alamofire"]
-- ["PSo30UIResponderStandardEditActions", "BASE_URL"]
-- ["PSo30UIResponderStandardEditActions", "CHAT_URL"]
-- !private ["PSo30UIResponderStandardEditActions", "MainViewController"]
-- ["PSo30UIResponderStandardEditActions", "WELCOME_URL"]
-- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "Constants"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - !private ["PSo30UIResponderStandardEditActions", "print"]
 - ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["PSo16UIStateRestoring", "Alamofire"]
-- ["PSo16UIStateRestoring", "BASE_URL"]
-- ["PSo16UIStateRestoring", "CHAT_URL"]
-- !private ["PSo16UIStateRestoring", "MainViewController"]
-- ["PSo16UIStateRestoring", "WELCOME_URL"]
-- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "Constants"]
 - !private ["PSo16UIStateRestoring", "init"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo18UITraitEnvironment", "Alamofire"]
-- ["PSo18UITraitEnvironment", "BASE_URL"]
-- ["PSo18UITraitEnvironment", "CHAT_URL"]
-- !private ["PSo18UITraitEnvironment", "MainViewController"]
-- ["PSo18UITraitEnvironment", "WELCOME_URL"]
-- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "Constants"]
 - !private ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo16UIViewController", "Alamofire"]
-- ["CSo16UIViewController", "BASE_URL"]
-- ["CSo16UIViewController", "CHAT_URL"]
-- !private ["CSo16UIViewController", "MainViewController"]
-- ["CSo16UIViewController", "WELCOME_URL"]
+- !private ["CSo16UIViewController", "Constants"]
 - ["CSo16UIViewController", "deinit"]
-- ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "init"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "viewDidLoad"]
@@ -269,43 +180,40 @@ depends-member:
 - !private ["Vs6UInt32", "deinit"]
 - !private ["Vs6UInt64", "deinit"]
 - !private ["Vs5UInt8", "deinit"]
-- ["P9Alamofire14URLConvertible", "init"]
+- !private ["P9Alamofire14URLConvertible", "init"]
 - !private ["P9Alamofire21URLRequestConvertible", "deinit"]
 - !private ["Sc", "deinit"]
-- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
-- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
-- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
-- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "Alamofire"]
-- ["Ps9_Hashable", "BASE_URL"]
-- ["Ps9_Hashable", "CHAT_URL"]
-- !private ["Ps9_Hashable", "MainViewController"]
-- ["Ps9_Hashable", "WELCOME_URL"]
-- ["Ps9_Hashable", "didReceiveMemoryWarning"]
-- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "Constants"]
+- !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "print"]
 - ["Ps9_Hashable", "viewDidLoad"]
 - ["Ps9_Hashable", ""]
-- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
 - !private "Sb"
 - "Ps7CVarArg"
 - !private "Vs9Character"
-- "Ps10Comparable"
+- !private "Ps10Comparable"
+- !private "C15Books_Generator9Constants"
 - "Ps28CustomDebugStringConvertible"
-- "Ps29CustomPlaygroundQuickLookable"
-- "Ps17CustomReflectable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "C9Alamofire11DataRequest"
 - !private "V9Alamofire12DataResponse"
 - !private "Sd"
 - "Ps9Equatable"
-- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- "Ps32ExpressibleByStringInterpolation"
-- "Ps26ExpressibleByStringLiteral"
-- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - !private "Sf"
 - "Ps8Hashable"
 - !private "Si"
@@ -313,25 +221,25 @@ depends-nominal:
 - !private "Vs5Int32"
 - !private "Vs5Int64"
 - !private "Vs4Int8"
-- "Ps25LosslessStringConvertible"
+- !private "Ps25LosslessStringConvertible"
 - "C15Books_Generator18MainViewController"
-- "Ps10MirrorPath"
+- !private "Ps10MirrorPath"
 - "CSo7NSCoder"
 - "PSo8NSCoding"
-- "PSo9NSCopying"
+- !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
-- "PSo16NSMutableCopying"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
-- "PSo14NSSecureCoding"
-- "CSo8NSString"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
 - "Sq"
 - !private "C9Alamofire7Request"
 - !private "P9Alamofire8Response"
 - !private "O9Alamofire6Result"
 - "SS"
-- "Ps16TextOutputStream"
-- "Ps20TextOutputStreamable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
 - "PSo21UIAppearanceContainer"
 - "PSo18UIContentContainer"
 - "PSo18UIFocusEnvironment"
@@ -345,16 +253,16 @@ depends-nominal:
 - !private "Vs6UInt32"
 - !private "Vs6UInt64"
 - !private "Vs5UInt8"
-- "P9Alamofire14URLConvertible"
+- !private "P9Alamofire14URLConvertible"
 - !private "P9Alamofire21URLRequestConvertible"
 - !private "Sc"
-- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- "Ps34_ExpressibleByBuiltinStringLiteral"
-- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
-- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
-- "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
-- "Ps21_ObjectiveCBridgeable"
+- !private "Ps21_ObjectiveCBridgeable"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -429,4 +337,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
-interface-hash: "a654e2bc3939f7a0bfb84cd8aa2ced7c"
+interface-hash: "70665c39d447569cfc2d9910fff4b4f1"

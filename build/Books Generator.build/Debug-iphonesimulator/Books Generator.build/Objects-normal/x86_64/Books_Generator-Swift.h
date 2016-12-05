@@ -149,7 +149,6 @@ SWIFT_CLASS("_TtC15Books_Generator18ChatViewController")
 @property (nonatomic, strong) JSQMessagesBubbleImage * _Nonnull outgoingBubbleImageView;
 @property (nonatomic, strong) JSQMessagesBubbleImage * _Nonnull incomingBubbleImageView;
 - (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
 - (id <JSQMessageData> _Null_unspecified)collectionView:(JSQMessagesCollectionView * _Null_unspecified)collectionView messageDataForItemAtIndexPath:(NSIndexPath * _Null_unspecified)indexPath;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
 - (id <JSQMessageBubbleImageDataSource> _Null_unspecified)collectionView:(JSQMessagesCollectionView * _Null_unspecified)collectionView messageBubbleImageDataForItemAtIndexPath:(NSIndexPath * _Null_unspecified)indexPath;
@@ -162,14 +161,7 @@ SWIFT_CLASS("_TtC15Books_Generator18ChatViewController")
 
 SWIFT_CLASS("_TtC15Books_Generator18MainViewController")
 @interface MainViewController : UIViewController
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull BASE_URL;)
-+ (NSString * _Nonnull)BASE_URL;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull WELCOME_URL;)
-+ (NSString * _Nonnull)WELCOME_URL;
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull CHAT_URL;)
-+ (NSString * _Nonnull)CHAT_URL;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

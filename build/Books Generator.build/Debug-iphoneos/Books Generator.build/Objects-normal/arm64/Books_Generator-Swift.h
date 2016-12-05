@@ -116,6 +116,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import JSQMessagesViewController;
+@import Foundation;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -127,21 +129,39 @@ SWIFT_CLASS("_TtC15Books_Generator11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
-- (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
-- (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;
-- (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
-- (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
-- (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class JSQMessage;
+@class JSQMessagesBubbleImage;
+@class JSQMessagesCollectionView;
+@protocol JSQMessageData;
+@class UICollectionView;
+@protocol JSQMessageBubbleImageDataSource;
+@protocol JSQMessageAvatarImageDataSource;
+@class UIButton;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC15Books_Generator14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC15Books_Generator18ChatViewController")
+@interface ChatViewController : JSQMessagesViewController
+@property (nonatomic, copy) NSArray<JSQMessage *> * _Nonnull messages;
+@property (nonatomic, strong) JSQMessagesBubbleImage * _Nonnull outgoingBubbleImageView;
+@property (nonatomic, strong) JSQMessagesBubbleImage * _Nonnull incomingBubbleImageView;
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
+- (id <JSQMessageData> _Null_unspecified)collectionView:(JSQMessagesCollectionView * _Null_unspecified)collectionView messageDataForItemAtIndexPath:(NSIndexPath * _Null_unspecified)indexPath;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (id <JSQMessageBubbleImageDataSource> _Null_unspecified)collectionView:(JSQMessagesCollectionView * _Null_unspecified)collectionView messageBubbleImageDataForItemAtIndexPath:(NSIndexPath * _Null_unspecified)indexPath;
+- (id <JSQMessageAvatarImageDataSource> _Null_unspecified)collectionView:(JSQMessagesCollectionView * _Null_unspecified)collectionView avatarImageDataForItemAtIndexPath:(NSIndexPath * _Null_unspecified)indexPath;
+- (void)didPressSendButton:(UIButton * _Null_unspecified)button withMessageText:(NSString * _Null_unspecified)text senderId:(NSString * _Null_unspecified)senderId senderDisplayName:(NSString * _Null_unspecified)senderDisplayName date:(NSDate * _Null_unspecified)date;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC15Books_Generator18MainViewController")
+@interface MainViewController : UIViewController
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

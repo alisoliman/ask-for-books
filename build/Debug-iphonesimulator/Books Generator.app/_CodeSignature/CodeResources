@@ -16,17 +16,25 @@
 		<data>
 		aAxEqLO52iHVsCwfGiFkEsWSnQM=
 		</data>
+		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<data>
+		8ijEAPqOLQI3Llxc9QWs6Bcf6vE=
+		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		NQVjRFVLjK5wpkf9fSlk/GBUHt8=
+		uO5lC6GXCAc3Q7ph3LAwiPgCCm0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-5dr-b0-Iyv.nib</key>
 		<data>
-		XZ0KZjDTPbv7dJUWKt4vkfkF9Ks=
+		m7oU8eKLNB55ugsGTTx6aiktbqI=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-XQp-D4-4W7.nib</key>
+		<data>
+		fefcNLVwrCzqfOK46z4h5Eg2SMo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/XQp-D4-4W7-view-ZwT-il-bb0.nib</key>
 		<data>
-		FYppHcTzfb+vJKopz0sQ6YNIx4Q=
+		3oZChZTg4KbKLDj8hOpKKt+ODJc=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -540,37 +548,59 @@
 			RMo6QhJPQo0ivCmlUzzWig4PAdL4/GFTFAHDV5e147w=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8ijEAPqOLQI3Llxc9QWs6Bcf6vE=
+			</data>
+			<key>hash2</key>
+			<data>
+			DoTBtA4puh76ignHPqE2ZaMSfetbFTLJkAmNoImQ1EU=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NQVjRFVLjK5wpkf9fSlk/GBUHt8=
+			uO5lC6GXCAc3Q7ph3LAwiPgCCm0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vQGnaaK2mPbemUKW2GHCJqBW+YUpF85As7tZnu0em5s=
+			wzHN+oeBl6e8OkpARU1p292loVRBSqbMop9mCBm+0q0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-5dr-b0-Iyv.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XZ0KZjDTPbv7dJUWKt4vkfkF9Ks=
+			m7oU8eKLNB55ugsGTTx6aiktbqI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z1lCahzonaeom5wW5n9/HJXi15yy56+i79lMmAznBCI=
+			PG5je+zhlpdQGRQUksV9CzEl9GMxMY/JNxMLUn0Rc0g=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-XQp-D4-4W7.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fefcNLVwrCzqfOK46z4h5Eg2SMo=
+			</data>
+			<key>hash2</key>
+			<data>
+			md1XVZeopwXVFt78K1A4OcrI3Tz0jOA014j7Rntvd+E=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/XQp-D4-4W7-view-ZwT-il-bb0.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FYppHcTzfb+vJKopz0sQ6YNIx4Q=
+			3oZChZTg4KbKLDj8hOpKKt+ODJc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Vt18UBi7UMrcsb0uhW2ctJh1yabDAM6g/d6t1Hpwm3U=
+			wBetmybtBUbdg0hOmFfu/pg75TE/Rq1/+VOLn6120uQ=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
