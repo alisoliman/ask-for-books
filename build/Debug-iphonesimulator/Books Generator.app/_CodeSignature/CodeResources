@@ -38,7 +38,7 @@
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		Lgw8c2Un3EfVuqapYdw/aFc1NiM=
+		qa20/UfY/vbroGmBGh5oiUCq0SA=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -418,7 +418,7 @@
 		</data>
 		<key>Frameworks/JSQMessagesViewController.framework/JSQMessagesViewController</key>
 		<data>
-		CqgNC4rEt2PsuP8hxREPBuS5vxI=
+		pw0Sb9A2jTjeLd0Q6RrbsjLeGTY=
 		</data>
 		<key>Frameworks/JSQMessagesViewController.framework/JSQMessagesViewController.nib</key>
 		<data>
@@ -434,7 +434,7 @@
 		</data>
 		<key>Frameworks/JSQSystemSoundPlayer.framework/JSQSystemSoundPlayer</key>
 		<data>
-		KdAP5uL1ME2zsW+jBfrQLQBeTfI=
+		Wd/SqKA9RFVA7paK1Rzx9xcYeeE=
 		</data>
 		<key>Frameworks/JSQSystemSoundPlayer.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -502,7 +502,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KaR87cK+TC9yvJ7UjHqY++h5ytQ=
+		CRaHH6tRnTTPE80h2/amgE65oFk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -607,11 +607,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Lgw8c2Un3EfVuqapYdw/aFc1NiM=
+			qa20/UfY/vbroGmBGh5oiUCq0SA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jX2PjB4qc9Ua/pTCcXwgzmkELsY0yUBwHzMNgWYOJU0=
+			2b9TEXujxFXM7w5pGqcK6RGeWeBs3H1gSne3O1D7r5Y=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -1370,11 +1370,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CqgNC4rEt2PsuP8hxREPBuS5vxI=
+			pw0Sb9A2jTjeLd0Q6RrbsjLeGTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			iMC7oVBPjH6rxQ48Jt9+N3TQ3LImfYeZYZfnGA8lwrI=
+			pT3Rch5P4hBKRNHGySsrOwcR6dO+7Jrtcaqg9sZtOaY=
 			</data>
 		</dict>
 		<key>Frameworks/JSQMessagesViewController.framework/JSQMessagesViewController.nib</key>
@@ -1414,11 +1414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KdAP5uL1ME2zsW+jBfrQLQBeTfI=
+			Wd/SqKA9RFVA7paK1Rzx9xcYeeE=
 			</data>
 			<key>hash2</key>
 			<data>
-			lMWYJ4gwRAKylH5yLlrrgdOPze3s69etse2UPKKrNFg=
+			kV8u64FHz0DiPlwau1TTwy8uPDUSjMW5qzByqM40u1c=
 			</data>
 		</dict>
 		<key>Frameworks/JSQSystemSoundPlayer.framework/_CodeSignature/CodeResources</key>

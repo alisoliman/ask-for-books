@@ -10,13 +10,13 @@ provides-dynamic-lookup:
 - "window"
 depends-top-level:
 - !private "BooleanLiteralType"
-- "UIApplicationDelegate"
-- "UIResponder"
 - "Bool"
+- "UIApplicationDelegate"
 - "UIWindow"
+- "UIResponder"
 - "UIApplicationLaunchOptionsKey"
-- "AppDelegate"
 - "UIApplication"
+- "AppDelegate"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
